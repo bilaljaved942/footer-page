@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    height: 0%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.logo{
+    font-size: 44px;
+    font-family: fantasy;
+    color: rgb(180, 112, 56);
+    padding-right: 580px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(116, 155, 78);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    padding-left: 50px;
+}
+nav ul li a:hover{
+    color: rgb(7, 28, 97);
+    transition: .4s;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 90px;
+}
+.content h2{
+    color: lightgreen;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.content p{
+    color: rgb(162, 170, 43);
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(9, 25, 68);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.footer h2{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    padding-top: 40px;
+}
+.footer p{
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer img{
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer h4{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    padding-bottom: 50px;
+}
